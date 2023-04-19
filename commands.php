@@ -44,6 +44,12 @@
             "description" => "'\n______________Instalando Phpmyadmin______________\n'",
             "ask" => "\n¿Instalar Phpmyadmin? s/n\n",
             "required" => 0
+        ),
+        array(
+            "id" => 6,
+            "command" => "sudo apt-get install clonezilla -y",
+            "description" => "'\n______________Instalando Clonezilla______________\n'",
+            "required" => 1
         )
     );
 
