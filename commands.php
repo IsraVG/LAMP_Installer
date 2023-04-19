@@ -46,11 +46,18 @@
             "required" => 0
         ),
         array(
-            "id" => 6,
+            "id" => 7,
             "command" => "sudo apt-get install clonezilla -y",
             "description" => "'\n______________Instalando Clonezilla______________\n'",
             "required" => 1
+        ),
+        array(
+            "id" => 8,
+            "command" => "sudo apt-get install isc-dhcp-server -y",
+            "description" => "'\n______________Instalando DHCP Server______________\n'",
+            "required" => 1
         )
+        
     );
 
 ?>
